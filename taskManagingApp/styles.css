@@ -1,0 +1,102 @@
+/* Styles for the overall body of the document */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #2d2b2b;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+/* Styles for the main container */
+.container {
+  background-color: #262323;
+  padding: 30px;
+  border-radius: 10px;
+  width: 80%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Styles for heading level 1 */
+h1 {
+  color: #f1f0f0;
+}
+
+/* Styles for text and datetime-local input fields */
+input[type="text"],
+input[type="datetime-local"] {
+  padding: 8px;
+  font-size: larger;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+/* Styles for general button */
+button {
+  padding: 10px;
+  background-color: #4caf50;
+  font-size: large;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Hover effect for the button */
+button:hover {
+  background-color: #45a049;
+}
+
+/* Styles for the table */
+table {
+  width: 100%;
+  margin-top: 30px;
+  border-collapse: collapse;
+}
+
+/* Styles for table headers and data cells */
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  font-size: large;
+  text-align: left;
+}
+
+/* Styles for table headers */
+th {
+  background-color: #4caf50;
+  font-size: large;
+  color: white;
+}
+
+/* Styles for the remove button within the table */
+button.remove-btn {
+  background-color: #a44242;
+  color: #fff;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Hover effect for the remove button */
+button.remove-btn:hover {
+  background-color: #cc0000;
+}
+
+/* Additional styles for the #deadline element */
+#deadline {
+  font-size: 20px;
+}
+
+/* Additional styles for label elements */
+label {
+  font-size: 20px;
+}
+
+/* Additional styles for heading level 1 (h1) */
+h1 {
+  font-size: 40px;
+}
